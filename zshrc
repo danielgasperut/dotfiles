@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="myusuf3"
+ZSH_THEME="myCloud"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -34,32 +34,42 @@ plugins=(git pip django python brew redis-cli)
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
-# Customize to your needs...
-
-
-
+# Python                                                                    
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Development
+source /usr/local/bin/virtualenvwrapper.sh
 
 export PORT=8000
 export PATH=/usr/local/opt/ruby/bin:/usr/local:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:
 export PATH=$PATH:/usr/local/sbin
 export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
-export PATH=/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin:$PATH
+export PATH=/Applications/Sublime\ Text.app/Contents/SharedSupport/bin:$PATH
 export EDITOR='subl -w'
 
-source /usr/local/bin/virtualenvwrapper.sh
+alias dev='cd ~/Development'
 
+# Django General
 alias runserver='python manage.py runserver'
 alias syncdb='python manage.py syncdb'
-alias youtube='~/Github/youtube-dl/youtube-dl -t'
-alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g $*'
+alias dtest='python manage.py test'
+alias dshell='python manage.py shell'
 alias celeryd='python manage.py celery worker --loglevel=info'
+
+# RIPT
+alias rrun='python local_manage.py runserver'
+alias rtest='python local_manage.py test'
+alias rshell='python local_manage.py shell'
+alias ript='workon ript && cd ~/Development/ript'
+
+# Heroku
+alias pshell='heroku run python manage.py shell --remote production'
+alias sshell='heroku run python manage.py shell --remote staging'
 
 # Terminal 256 colors
 export TERM="xterm-256color"
 export PYTHONDONTWRITEBYTECODE=1
 export PYTHONUNBUFFERED=True
 export VIRTUALENV_DISTRIBUTE=true
-[[ -s /Users/myusuf3/.pythonz/etc/bashrc ]] && source /Users/myusuf3/.pythonz/etc/bashrc
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 

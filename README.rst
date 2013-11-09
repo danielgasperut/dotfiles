@@ -1,4 +1,4 @@
-Mahdi Yusuf's Dot Files
+Aaron's Dot Files, forked from Mahdi Yusuf's Dot Files
 =======================
 
 These are my configs and setup a system the way I like it.

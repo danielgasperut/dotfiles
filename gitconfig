@@ -1,9 +1,9 @@
 [user]
-	name = Mahdi Yusuf
-	email = yusuf.mahdi@gmail.com
+	name = Aaron Eikenberry
+	email = aeikenberry@gmail.com
 
 [github]
-	user = myusuf3
+	user = aeikenberry
 
 [alias]
     l = "!source ~/.githelpers && prett_git_log"
@@ -37,4 +37,4 @@
 	excludesfile = ~/.gitignore
 
 [heroku]
-	account = myusuf3
+	account = aeikenberry

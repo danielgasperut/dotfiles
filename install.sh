@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 echo "initializing submodules"
-git submodule init
-git submodule update
+#git submodule init
+#git submodule update
 
 echo "Deleting the old files"
 rm ~/.vimrc
@@ -15,17 +15,17 @@ rm ~/.tmux.conf
 rm ~/.pip/pip.conf
 
 echo "Symlinking files"
-ln -s ~/Github/dotfiles/vimrc ~/.vimrc
-ln -s ~/Github/dotfiles/zshrc ~/.zshrc
-ln -s ~/Github/dotfiles/vim ~/.vim
-ln -s ~/Github/dotfiles/gvimrc ~/.gvimrc
-ln -s ~/Github/dotfiles/gitconfig ~/.gitconfig
-ln -s ~/Github/dotfiles/gitignore ~/.gitignore
-ln -s ~/Github/dotfiles/tmux ~/.tmux.conf
-ln -s ~/Github/dotfiles/githelpers ~/.githelpers
-ln -s ~/Github/dotfiles/hgrc ~/.hgrc
-ln -s ~/Github/dotfiles/pip.conf ~/.pip/pip.conf
-ln -s ~/Github/dotfiles/myusuf3.zsh-theme ~/.oh-my-zsh/themes/
+ln -s ~/Development/dotfiles/vimrc ~/.vimrc
+ln -s ~/Development/dotfiles/zshrc ~/.zshrc
+ln -s ~/Development/dotfiles/vim ~/.vim
+ln -s ~/Development/dotfiles/gvimrc ~/.gvimrc
+ln -s ~/Development/dotfiles/gitconfig ~/.gitconfig
+ln -s ~/Development/dotfiles/gitignore ~/.gitignore
+ln -s ~/Development/dotfiles/tmux ~/.tmux.conf
+ln -s ~/Development/dotfiles/githelpers ~/.githelpers
+ln -s ~/Development/dotfiles/hgrc ~/.hgrc
+ln -s ~/Development/dotfiles/pip.conf ~/.pip/pip.conf
+ln -s ~/Development/dotfiles/myusuf3.zsh-theme ~/.oh-my-zsh/themes/
 echo "Updating submodules"
 git submodule foreach git pull origin master --recurse-submodules
 
