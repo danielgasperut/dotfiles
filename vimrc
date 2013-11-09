@@ -62,7 +62,7 @@ set laststatus=2                    " Always show the statusline
 let g:Powerline_symbols = 'fancy'   " Powerline
 
 "SWAGG
-set relativenumber                           " setting line numbers
+set number                           " setting line numbers
 set colorcolumn=81                           " line to show 81 character mark
 set cursorline                               " shows the horizontal cursor line
 nmap <leader>ev :vsplit $MYVIMRC<cr>         " mapping to edit my vimrc quickly
