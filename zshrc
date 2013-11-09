@@ -34,7 +34,7 @@ plugins=(git pip django python brew redis-cli)
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
-# Python                                                                    
+# Python
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Development
 source /usr/local/bin/virtualenvwrapper.sh
