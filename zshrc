@@ -55,11 +55,12 @@ alias dtest='python manage.py test'
 alias dshell='python manage.py shell'
 alias celeryd='python manage.py celery worker --loglevel=info'
 
-# RIPT
-alias rrun='python local_manage.py runserver'
-alias rtest='python local_manage.py test'
-alias rshell='python local_manage.py shell'
-alias ript='workon ript && cd ~/Development/ript'
+# RIPT STUFF
+alias ript="cd $HOME/Development/ript && workon ript"
+alias rrun="ript && python local_manage.py runserver"
+alias rtest="ript && python local_manage.py test"
+alias rshell="ript && python local_manage.py shell"
+alias rmigrate="ript && python local_manage.py migrate"
 
 # Heroku
 alias pshell='heroku run python manage.py shell --remote production'

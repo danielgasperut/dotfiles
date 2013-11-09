@@ -24,8 +24,8 @@ set term=screen-256color            " setting colors when vim is inside tmux
 ":autocmd BufWrite *.html :normal gg=G        " reindent html files on save
 
 "Abbreviations
-:iabbrev @@     yusuf.mahdi@gmail.com
-:iabbrev ccopy  Copyright 2012 Mahdi Yusuf, all rights reserved.
+:iabbrev @@     aeikenberry@gmail.com
+:iabbrev ccopy  Copyright 2013 Aaron Eikenberry, all rights reserved.
 :iabbrev pdb    # XXX BREAKPOINT XXX <cr>import pdb; pdb.set_trace()
 :iabbrev ppython #!/usr/bin/env python <cr>#-*- coding: utf-8 -*-
 
