@@ -16,6 +16,7 @@ rm ~/.pip/pip.conf
 rm ~/.hgrc
 rm ~/.githelpers
 rm ~/.oh-my-zsh/themes/myCloud.zsh-theme
+rm ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
 echo "Symlinking files"
 ln -s ~/Development/dotfiles/vimrc ~/.vimrc
@@ -29,6 +30,7 @@ ln -s ~/Development/dotfiles/githelpers ~/.githelpers
 ln -s ~/Development/dotfiles/hgrc ~/.hgrc
 ln -s ~/Development/dotfiles/pip.conf ~/.pip/pip.conf
 ln -s ~/Development/dotfiles/myCloud.zsh-theme ~/.oh-my-zsh/themes
+ln -s ~/Development/dotfiles/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 echo "Updating submodules"
 git submodule foreach git pull origin master --recurse-submodules
