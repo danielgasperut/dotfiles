@@ -1,7 +1,7 @@
 Aaron's Dot Files
 =======================
 
-These are my configs and setup a system the way I like it. A work in progress. More how Mahdi likes his at this point.
+These are my configs and setup a system the way I like it. A work in progress.
 
 Installation
 =============
