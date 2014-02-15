@@ -1,46 +1,49 @@
 {
-    "auto_complete_commit_on_tab": true,
-    "bold_folder_labels": true,
-    "close_windows_when_empty": true,
-    "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
-    "draw_white_space": "selection",
-    "fade_fold_buttons": false,
-    "find_selected_text": true,
-    "fold_buttons": false,
-    "open_files_in_new_window": true,
-    "trim_trailing_white_space_on_save": true,
-    "folder_exclude_patterns":
-    [
-        ".svn",
-        ".git",
-        ".hg",
-        "CVS",
-        "_build",
-        "_tmp",
-        "dist",
-        "build",
-        "site"
-    ],
-    "font_face": "Monaco",
-    "font_options":
-    [
-        "subpixel_antialias"
-    ],
-    "font_size": 15.0,
-    "highlight_line": true,
-    "highlight_modified_tabs": true,
-    "ignored_packages":
-    [
-        "Vintage"
-    ],
-    "pep8_ignore":
-    [
-    ],
-    "rulers":[79, 118],
-    "theme": "Soda Dark.sublime-theme",
-    "translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": true,
-    "use_simple_full_screen": true,
-    "vintage_lines.force_mode": true,
-    "ensure_newline_at_eof_on_save": true
+	"auto_complete_commit_on_tab": true,
+	"bold_folder_labels": true,
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"find_selected_text": true,
+	"fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"_build",
+		"_tmp",
+		"dist",
+		"build",
+		"site"
+	],
+	"font_face": "Monaco",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 15.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"open_files_in_new_window": true,
+	"pep8_ignore":
+	[
+	],
+	"rulers":
+	[
+		79,
+		118
+	],
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true,
+	"vintage_lines.force_mode": true
 }

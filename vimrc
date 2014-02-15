@@ -59,8 +59,7 @@ let g:pymode_folding = 0            " python-mode
 set laststatus=2                    " Always show the statusline
 
 " Enable fancy mode 
-let g:Powerline_symbols = 'fancy'   " Powerline
-
+"let g:Powerline_symbols = 'fancy'   " Powerline 
 "SWAGG
 set number                           " setting line numbers
 set colorcolumn=81                           " line to show 81 character mark
